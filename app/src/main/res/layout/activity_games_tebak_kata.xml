@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".leftmenu.games.ActivityGamesTebakKata">
+
+
+
+    <TextView
+        android:id="@+id/game4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/okojoprobold"
+        android:text="GAME 2. TEBAK KATA"
+        android:textSize="20sp"
+        android:textColor="#4a684e"
+        android:layout_toEndOf="@id/anak" />
+
+    <ImageView
+        android:id="@+id/nyawa3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        app:srcCompat="@drawable/ic_hati" />
+
+    <ImageView
+        android:id="@+id/nyawa1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="5dp"
+        android:layout_toStartOf="@+id/nyawa2"
+        app:srcCompat="@drawable/ic_hati" />
+
+    <ImageView
+        android:id="@+id/nyawa2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="5dp"
+        android:layout_toStartOf="@+id/nyawa3"
+        app:srcCompat="@drawable/ic_hati" />
+
+    <TextView
+        android:id="@+id/penjelasan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/okojoproregular"
+        android:text="Clue: Berhubungan dengan pengukuran gempa"
+        android:layout_below="@id/game4"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:layout_toEndOf="@id/anak"/>
+
+    <ImageView
+        android:id="@+id/anak"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:src="@drawable/game2_anak"
+        android:layout_above="@+id/ll_huruf"
+        android:layout_marginStart="90dp"/>
+
+    <ImageView
+        android:id="@+id/benar"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_above="@id/ll_jawaban2"
+        android:layout_marginLeft="46dp"
+        android:layout_marginBottom="-44dp"
+        android:layout_toRightOf="@id/ll_jawaban"
+        android:src="@drawable/ic_check_green" />
+
+    <LinearLayout
+        android:id="@+id/ll_huruf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/rounded_rectangle_darkgreen"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/A"
+                style="@style/HurufTebakKata"
+                android:text="A" />
+
+            <Button
+                android:id="@+id/B"
+                style="@style/HurufTebakKata"
+                android:layout_marginStart="5dp"
+                android:text="B" />
+
+            <Button
+                android:id="@+id/C"
+                style="@style/HurufTebakKata"
+                android:layout_marginStart="5dp"
+                android:text="C" />
+
+            <Button
+                android:id="@+id/D"
+                style="@style/HurufTebakKata"
+                android:layout_marginStart="5dp"
+                android:text="D" />
+
+            <Button
+                android:id="@+id/E"
+                style="@style/HurufTebakKata"
+                android:layout_marginStart="5dp"
+                android:text="E" />
+
+            <Button
+                android:id="@+id/F"
+                android:text="F"
+                style="@style/HurufTebakKata"
+                android:layout_marginStart="5dp" />
+
+            <Button
+                android:id="@+id/G"
+                android:text="G"
+                style="@style/HurufTebakKata"
+                android:layout_marginStart="5dp" />
+
+            <Button
+                android:id="@+id/H"
+                style="@style/HurufTebakKata"
+                android:layout_marginStart="5dp"
+                android:text="H" />
+
+            <Button
+                android:id="@+id/I"
+                style="@style/HurufTebakKata"
+                android:layout_marginStart="5dp"
+                android:text="I" />
+
+            <Button
+                android:id="@+id/J"
+                android:text="J"
+                style="@style/HurufTebakKata"
+                android:layout_marginStart="5dp" />
+
+            <Button
+                android:id="@+id/K"
+                style="@style/HurufTebakKata"
+                android:layout_marginStart="5dp"
+                android:text="K" />
+
+            <Button
+                android:id="@+id/L"
+                style="@style/HurufTebakKata"
+                android:layout_marginStart="5dp"
+                android:text="L" />
+
+            <Button
+                android:id="@+id/M"
+                android:text="M"
+                style="@style/HurufTebakKata"
+                android:layout_marginStart="5dp" />
+
+            <Button
+                android:id="@+id/N"
+                android:text="N"
+                style="@style/HurufTebakKata"
+                android:layout_marginStart="5dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/O"
+                android:text="O"
+                style="@style/HurufTebakKata" />
+
+            <Button
+                android:id="@+id/P"
+                android:text="P"
+                style="@style/HurufTebakKata"
+                android:layout_marginStart="5dp" />
+
+            <Button
+                android:id="@+id/Q"
+                android:text="Q"
+                style="@style/HurufTebakKata"
+                android:layout_marginStart="5dp" />
+
+             <Button
+                android:id="@+id/R"
+                style="@style/HurufTebakKata"
+                android:layout_marginStart="5dp"
+                android:text="R" />
+
+            <Button
+                android:id="@+id/S"
+                style="@style/HurufTebakKata"
+                android:layout_marginStart="5dp"
+                android:text="S" />
+
+            <Button
+                android:id="@+id/T"
+                style="@style/HurufTebakKata"
+                android:layout_marginStart="5dp"
+                android:text="T" />
+
+            <Button
+                android:id="@+id/U"
+                android:text="U"
+                style="@style/HurufTebakKata"
+                android:layout_marginStart="5dp" />
+
+            <Button
+                android:id="@+id/V"
+                android:text="V"
+                style="@style/HurufTebakKata"
+                android:layout_marginStart="5dp" />
+
+            <Button
+                android:id="@+id/W"
+                android:text="W"
+                style="@style/HurufTebakKata"
+                android:layout_marginStart="5dp" />
+
+            <Button
+                android:id="@+id/X"
+                android:text="X"
+                style="@style/HurufTebakKata"
+                android:layout_marginStart="5dp" />
+
+            <Button
+                android:id="@+id/Y"
+                android:text="Y"
+                style="@style/HurufTebakKata"
+                android:layout_marginStart="5dp" />
+
+            <Button
+                android:id="@+id/Z"
+                android:text="Z"
+                style="@style/HurufTebakKata"
+                android:layout_marginStart="5dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_jawaban"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_toRightOf="@id/anak"
+        android:layout_above="@id/ll_jawaban2">
+        <TextView
+            android:id="@+id/jw_S"
+            style="@style/Jawaban"
+            tools:text="S"
+            android:layout_marginRight="7dp"/>
+        <TextView
+            android:id="@+id/jw_K"
+            style="@style/Jawaban"
+             android:layout_marginRight="7dp"/>
+        <TextView
+            android:id="@+id/jw_A"
+            style="@style/Jawaban"
+            android:layout_marginRight="7dp"/>
+        <TextView
+            android:id="@+id/jw_L"
+            style="@style/Jawaban"
+            android:layout_marginRight="8dp"/>
+        <TextView
+            android:id="@+id/jw_A2"
+            style="@style/Jawaban"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_jawaban2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentRight="true"
+        android:layout_above="@id/ll_huruf"
+        android:layout_toRightOf="@id/anak"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="8dp">
+        <TextView
+            android:id="@+id/jw_R"
+            style="@style/Jawaban"
+            tools:text="R"
+            android:layout_marginRight="7dp"/>
+        <TextView
+            android:id="@+id/jw_I"
+            style="@style/Jawaban"
+            android:layout_marginRight="5dp"/>
+        <TextView
+            android:id="@+id/jw_C"
+            style="@style/Jawaban"
+            android:layout_marginRight="7dp"/>
+        <TextView
+            android:id="@+id/jw_H"
+            style="@style/Jawaban"
+            android:layout_marginRight="8dp"/>
+        <TextView
+            android:id="@+id/jw_T"
+            style="@style/Jawaban"
+            android:layout_marginRight="6dp"/>
+        <TextView
+            android:id="@+id/jw_E"
+            style="@style/Jawaban"
+            android:layout_marginRight="6dp"/>
+        <TextView
+            android:id="@+id/jw_R2"
+            style="@style/Jawaban"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/nyawa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:text="3"
+        android:textSize="16sp"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        app:srcCompat="@drawable/btn_back" />
+</RelativeLayout>

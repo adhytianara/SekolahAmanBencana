@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Sekolah Aman Bencana</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string-array name="deskripsigame3banjir">
+        <item>Bukan, televisi berbahaya karena bisa membuat kamu tersengat listrik. Jika ingin menyelamatkannya, mintalah bantuan orang tua</item>
+        <item>Meja digunakan sebagai tempat berlidung saat terjadi gempa bumi, bukan saat terjadi banjir ya teman</item>
+        <item>Kamu benar! Dokumen penting seperti ijazah, sertifikat, akta rumah/tanah, dan akta kelahiran perlu kamu selamatkan</item>
+        <item>Benar! Saat terjadi banjir, selamatkan barang berharga seperti uang, dan perhiasan</item>
+        <item>Tepat sekali. Pakaian menjadi hal penting terutama jika kita berada di tempat evakuasi selama berhari-hari</item>
+        <item>Benar. Jika kalian mengungsi, pastikan rumah kalian terkunci dengan aman</item>
+        <item>Kurang tepat. Saat terjadi banjir, usahakan tidak membawa barang berupa boneka dan mainan</item>
+        <item>Bukan, sarung tangan tidak perlu diselamatkan saat banjir</item>
+        <item>Benar sekali. Saat ke tempat pengungsian, pastikan kamu membawa makanan ya</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@android:color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".leftmenu.games.ActivityGamesBanjir">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/game4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/okojoprobold"
+            android:text="GAME 3. SHORT QUIZ"
+            android:textColor="#4a684e"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/penjelasan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/game4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/okojoproregular"
+            android:text="Saat terjadi banjir, apa saja yang perlu kita selamatkan?"
+            android:textColor="@android:color/black"
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:id="@+id/ll_barang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/penjelasan"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:layout_width="88dp"
+                    android:layout_height="85dp">
+
+                    <ImageView
+                        android:id="@+id/iv_tv"
+                        style="@style/GameBanjir"
+                        android:src="@drawable/game3_tv" />
+
+                    <ImageView
+                        android:id="@+id/iv_tv_false"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ic_false_red"
+                        android:visibility="invisible" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="88dp"
+                    android:layout_height="85dp">
+
+                    <ImageView
+                        android:id="@+id/iv_meja"
+                        style="@style/GameBanjir"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/game3_meja" />
+
+                    <ImageView
+                        android:id="@+id/iv_meja_false"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ic_false_red"
+                        android:visibility="invisible" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="88dp"
+                    android:layout_height="85dp">
+
+                    <ImageView
+                        android:id="@+id/iv_dokumen"
+                        style="@style/GameBanjir"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/game3_dokumen" />
+
+                    <ImageView
+                        android:id="@+id/iv_dokumen_true"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ic_check_green"
+                        android:visibility="invisible" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="88dp"
+                    android:layout_height="85dp">
+
+                    <ImageView
+                        android:id="@+id/iv_uang"
+                        style="@style/GameBanjir"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/game3_uang" />
+
+                    <ImageView
+                        android:id="@+id/iv_uang_true"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ic_check_green"
+                        android:visibility="invisible" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="88dp"
+                    android:layout_height="85dp">
+
+                    <ImageView
+                        android:id="@+id/iv_pakaian"
+                        style="@style/GameBanjir"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/game3_pakaian" />
+
+                    <ImageView
+                        android:id="@+id/iv_pakaian_true"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ic_check_green"
+                        android:visibility="invisible" />
+                </FrameLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:layout_width="88dp"
+                    android:layout_height="85dp">
+
+                    <ImageView
+                        android:id="@+id/iv_rumah"
+                        style="@style/GameBanjir"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/game3_rumah" />
+
+                    <ImageView
+                        android:id="@+id/iv_rumah_true"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ic_check_green"
+                        android:visibility="invisible" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="88dp"
+                    android:layout_height="85dp">
+
+                    <ImageView
+                        android:id="@+id/iv_boneka"
+                        style="@style/GameBanjir"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/game3_boneka" />
+
+                    <ImageView
+                        android:id="@+id/iv_boneka_false"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ic_false_red"
+                        android:visibility="invisible" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="88dp"
+                    android:layout_height="85dp">
+
+                    <ImageView
+                        android:id="@+id/iv_sarungtangan"
+                        style="@style/GameBanjir"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/game3_sarungtangan" />
+
+                    <ImageView
+                        android:id="@+id/iv_sarungtangan_false"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ic_false_red"
+                        android:visibility="invisible" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="88dp"
+                    android:layout_height="85dp">
+
+                    <ImageView
+                        android:id="@+id/iv_makanan"
+                        style="@style/GameBanjir"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/game3_makanan" />
+
+                    <ImageView
+                        android:id="@+id/iv_makanan_true"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ic_check_green"
+                        android:visibility="invisible" />
+                </FrameLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_desripsi"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@id/ll_barang"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/rounded_rectangle_darkgreen"
+            android:fontFamily="@font/okojoproregular"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            tools:text="GAME 3. SHORT QUIZ" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.014"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.01999998"
+        app:srcCompat="@drawable/btn_back" />
+
+</android.support.constraint.ConstraintLayout>

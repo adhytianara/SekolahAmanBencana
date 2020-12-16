@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".topmenu.info.bencana">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:saveEnabled="false"
+        android:scaleType="centerCrop"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back_erupsi" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:saveEnabled="false"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back_atas1" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="456dp"
+        android:layout_height="190dp"
+        android:layout_marginTop="8dp"
+        android:saveEnabled="false"
+        android:scaleType="centerCrop"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/num0"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/back_erupsi" />
+
+    <ImageView
+        android:id="@+id/text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="@id/imageView7"
+        app:layout_constraintEnd_toEndOf="@id/imageView7"
+        app:layout_constraintStart_toStartOf="@id/imageView7"
+        app:layout_constraintTop_toTopOf="@id/imageView7"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/rectanglebencana" />
+
+    <ImageView
+        android:id="@+id/text0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="@id/imageView7"
+        app:layout_constraintEnd_toEndOf="@id/imageView7"
+        app:layout_constraintStart_toStartOf="@id/imageView7"
+        app:layout_constraintTop_toTopOf="@id/imageView7"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/erupsi_txt1" />
+
+    <ImageView
+        android:id="@+id/num0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        app:layout_constraintBottom_toBottomOf="@id/imageView7"
+        app:layout_constraintEnd_toEndOf="@id/imageView7"
+        app:layout_constraintHorizontal_bias="0.04"
+        app:layout_constraintStart_toStartOf="@id/imageView7"
+        app:layout_constraintTop_toTopOf="@+id/imageView7"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/num_erupsi_red" />
+
+    <ImageView
+        android:id="@+id/num1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/num0"
+        app:layout_constraintStart_toStartOf="@+id/num0"
+        app:layout_constraintTop_toBottomOf="@+id/num0"
+        app:srcCompat="@drawable/num_banjir" />
+
+    <ImageView
+        android:id="@+id/num2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/num1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/num1"
+        app:layout_constraintTop_toBottomOf="@+id/num1"
+        app:srcCompat="@drawable/num_gempa" />
+
+    <ImageView
+        android:id="@+id/num3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/num2"
+        app:layout_constraintStart_toStartOf="@+id/num2"
+        app:layout_constraintTop_toBottomOf="@+id/num2"
+        app:srcCompat="@drawable/num_longsor" />
+
+    <ImageView
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/imageView7"
+        app:layout_constraintHorizontal_bias="0.96"
+        app:layout_constraintStart_toStartOf="@+id/imageView7"
+        app:layout_constraintTop_toTopOf="@+id/num0"
+        app:srcCompat="@drawable/btn_back" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@android:color/transparent"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/text0"
+        app:layout_constraintEnd_toEndOf="@+id/text0"
+        app:layout_constraintStart_toStartOf="@+id/text0"
+        app:layout_constraintTop_toTopOf="@+id/text0" />
+
+    <Button
+        android:id="@+id/buttonkedua"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@android:color/transparent"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/text0"
+        app:layout_constraintEnd_toEndOf="@+id/text0"
+        app:layout_constraintStart_toStartOf="@+id/text0"
+        app:layout_constraintTop_toTopOf="@+id/text0" />
+
+    <Button
+        android:id="@+id/buttonketiga"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@android:color/transparent"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/text0"
+        app:layout_constraintEnd_toEndOf="@+id/text0"
+        app:layout_constraintStart_toStartOf="@+id/text0"
+        app:layout_constraintTop_toTopOf="@+id/text0" />
+
+    <Button
+        android:id="@+id/buttonkeempat"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@android:color/transparent"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/text0"
+        app:layout_constraintEnd_toEndOf="@+id/text0"
+        app:layout_constraintStart_toStartOf="@+id/text0"
+        app:layout_constraintTop_toTopOf="@+id/text0" />
+
+    <Button
+        android:id="@+id/buttonkelima"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@android:color/transparent"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/text0"
+        app:layout_constraintEnd_toEndOf="@+id/text0"
+        app:layout_constraintStart_toStartOf="@+id/text0"
+        app:layout_constraintTop_toTopOf="@+id/text0" />
+
+    <Button
+        android:id="@+id/pilar1_btn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@android:color/transparent"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/text0"
+        app:layout_constraintEnd_toEndOf="@+id/text0"
+        app:layout_constraintStart_toStartOf="@+id/text0"
+        app:layout_constraintTop_toTopOf="@+id/text0" />
+
+    <Button
+        android:id="@+id/pilar1_btn2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@android:color/transparent"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/text0"
+        app:layout_constraintEnd_toEndOf="@+id/text0"
+        app:layout_constraintStart_toStartOf="@+id/text0"
+        app:layout_constraintTop_toTopOf="@+id/text0" />
+
+    <Button
+        android:id="@+id/pilar1_btn3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@android:color/transparent"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/text0"
+        app:layout_constraintEnd_toEndOf="@+id/text0"
+        app:layout_constraintStart_toStartOf="@+id/text0"
+        app:layout_constraintTop_toTopOf="@+id/text0" />
+
+    <Button
+        android:id="@+id/pilar1_btn4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@android:color/transparent"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/text0"
+        app:layout_constraintEnd_toEndOf="@+id/text0"
+        app:layout_constraintStart_toStartOf="@+id/text0"
+        app:layout_constraintTop_toTopOf="@+id/text0" />
+
+    <Button
+        android:id="@+id/pilar1_btn5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@android:color/transparent"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/text0"
+        app:layout_constraintEnd_toEndOf="@+id/text0"
+        app:layout_constraintStart_toStartOf="@+id/text0"
+        app:layout_constraintTop_toTopOf="@+id/text0" />
+
+    <Button
+        android:id="@+id/pilar1_btn6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@android:color/transparent"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/text0"
+        app:layout_constraintEnd_toEndOf="@+id/text0"
+        app:layout_constraintStart_toStartOf="@+id/text0"
+        app:layout_constraintTop_toTopOf="@+id/text0" />
+
+    <Button
+        android:id="@+id/pilar1_btn7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@android:color/transparent"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/text0"
+        app:layout_constraintEnd_toEndOf="@+id/text0"
+        app:layout_constraintStart_toStartOf="@+id/text0"
+        app:layout_constraintTop_toTopOf="@+id/text0" />
+
+    <Button
+        android:id="@+id/pilar2_btn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@android:color/transparent"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/text0"
+        app:layout_constraintEnd_toEndOf="@+id/text0"
+        app:layout_constraintStart_toStartOf="@+id/text0"
+        app:layout_constraintTop_toTopOf="@+id/text0" />
+
+    <Button
+        android:id="@+id/pilar2_btn2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@android:color/transparent"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/text0"
+        app:layout_constraintEnd_toEndOf="@+id/text0"
+        app:layout_constraintStart_toStartOf="@+id/text0"
+        app:layout_constraintTop_toTopOf="@+id/text0" />
+
+    <Button
+        android:id="@+id/pilar2_btn3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@android:color/transparent"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/text0"
+        app:layout_constraintEnd_toEndOf="@+id/text0"
+        app:layout_constraintStart_toStartOf="@+id/text0"
+        app:layout_constraintTop_toTopOf="@+id/text0" />
+
+    <Button
+        android:id="@+id/pilar2_btn4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@android:color/transparent"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/text0"
+        app:layout_constraintEnd_toEndOf="@+id/text0"
+        app:layout_constraintStart_toStartOf="@+id/text0"
+        app:layout_constraintTop_toTopOf="@+id/text0" />
+
+    <Button
+        android:id="@+id/pilar2_btn5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@android:color/transparent"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/text0"
+        app:layout_constraintEnd_toEndOf="@+id/text0"
+        app:layout_constraintStart_toStartOf="@+id/text0"
+        app:layout_constraintTop_toTopOf="@+id/text0" />
+
+    <Button
+        android:id="@+id/pilar2_btn6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@android:color/transparent"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/text0"
+        app:layout_constraintEnd_toEndOf="@+id/text0"
+        app:layout_constraintStart_toStartOf="@+id/text0"
+        app:layout_constraintTop_toTopOf="@+id/text0" />
+
+    <Button
+        android:id="@+id/pilar2_btn7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@android:color/transparent"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/text0"
+        app:layout_constraintEnd_toEndOf="@+id/text0"
+        app:layout_constraintStart_toStartOf="@+id/text0"
+        app:layout_constraintTop_toTopOf="@+id/text0" />
+
+    <Button
+        android:id="@+id/pilar3_btn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@android:color/transparent"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/text0"
+        app:layout_constraintEnd_toEndOf="@+id/text0"
+        app:layout_constraintStart_toStartOf="@+id/text0"
+        app:layout_constraintTop_toTopOf="@+id/text0" />
+
+    <Button
+        android:id="@+id/pilar3_btn2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@android:color/transparent"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/text0"
+        app:layout_constraintEnd_toEndOf="@+id/text0"
+        app:layout_constraintStart_toStartOf="@+id/text0"
+        app:layout_constraintTop_toTopOf="@+id/text0" />
+
+    <Button
+        android:id="@+id/pilar3_btn3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@android:color/transparent"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/text0"
+        app:layout_constraintEnd_toEndOf="@+id/text0"
+        app:layout_constraintStart_toStartOf="@+id/text0"
+        app:layout_constraintTop_toTopOf="@+id/text0" />
+
+    <Button
+        android:id="@+id/pilar3_btn4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@android:color/transparent"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/text0"
+        app:layout_constraintEnd_toEndOf="@+id/text0"
+        app:layout_constraintStart_toStartOf="@+id/text0"
+        app:layout_constraintTop_toTopOf="@+id/text0" />
+
+    <Button
+        android:id="@+id/pilar3_btn5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@android:color/transparent"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/text0"
+        app:layout_constraintEnd_toEndOf="@+id/text0"
+        app:layout_constraintStart_toStartOf="@+id/text0"
+        app:layout_constraintTop_toTopOf="@+id/text0" />
+
+    <Button
+        android:id="@+id/pilar3_btn6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@android:color/transparent"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/text0"
+        app:layout_constraintEnd_toEndOf="@+id/text0"
+        app:layout_constraintStart_toStartOf="@+id/text0"
+        app:layout_constraintTop_toTopOf="@+id/text0" />
+
+    <Button
+        android:id="@+id/pilar3_btn7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@android:color/transparent"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/text0"
+        app:layout_constraintEnd_toEndOf="@+id/text0"
+        app:layout_constraintStart_toStartOf="@+id/text0"
+        app:layout_constraintTop_toTopOf="@+id/text0" />
+
+
+</android.support.constraint.ConstraintLayout>

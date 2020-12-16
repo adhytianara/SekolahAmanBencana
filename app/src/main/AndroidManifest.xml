@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.projectliburkuliah.sekolahamanbencana">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo_icon"
+        android:supportsRtl="true"
+        android:theme="@style/FullscreenTheme">
+        <activity android:name="com.projectliburkuliah.sekolahamanbencana.topmenu.info.bencana"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="landscape"
+            android:theme="@style/FullscreenTheme"></activity>
+        <activity
+            android:name="com.projectliburkuliah.sekolahamanbencana.Opening"
+            android:screenOrientation="landscape"
+            android:theme="@style/FullscreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.projectliburkuliah.sekolahamanbencana.rightmenu.news.ils_gempa"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="landscape"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name="com.projectliburkuliah.sekolahamanbencana.rightmenu.news.ils_banjir"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="landscape"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name="com.projectliburkuliah.sekolahamanbencana.rightmenu.news.ils_erupsi"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="landscape"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name="com.projectliburkuliah.sekolahamanbencana.topmenu.info.sekolah_aman"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="landscape"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name="com.projectliburkuliah.sekolahamanbencana.topmenu.atas"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="landscape"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name="com.projectliburkuliah.sekolahamanbencana.leftmenu.kiri"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="landscape"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name="com.projectliburkuliah.sekolahamanbencana.rightmenu.kanan"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="landscape"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name="com.projectliburkuliah.sekolahamanbencana.MainActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/FullscreenTheme"></activity>
+        <activity
+            android:name="com.projectliburkuliah.sekolahamanbencana.leftmenu.games.ActivityGamesTebakGambar"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="landscape"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".leftmenu.games.ActivityGamesBenar"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="landscape"
+            android:theme="@style/FullscreenTheme"/>
+        <activity
+            android:name=".leftmenu.games.ActivityGamesTebakKata"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="landscape"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".leftmenu.games.ActivityGamesBanjir"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="landscape"
+            android:theme="@style/FullscreenTheme"/>
+        <activity android:name=".leftmenu.games.ActivityGamesErupsi"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="landscape"
+            android:theme="@style/FullscreenTheme"></activity>
+        <service android:name="com.projectliburkuliah.sekolahamanbencana.services.MyService"/>
+        <service android:name="com.projectliburkuliah.sekolahamanbencana.services.MyService2"/>
+        <service android:name="com.projectliburkuliah.sekolahamanbencana.services.MyService3"/>
+        <service android:name="com.projectliburkuliah.sekolahamanbencana.services.MyService4"/>
+    </application>
+
+</manifest>
